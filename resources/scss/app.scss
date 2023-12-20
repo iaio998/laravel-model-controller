@@ -9,6 +9,29 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
-h1 {
-    color: $text-color;
+
+
+#main-content{
+    background-color: bisque;
+   color: white;
+   .my-card{
+    text-align: center;
+      a{
+        text-decoration: none;
+        }
+        .my-img-cont{
+            width: 70%;
+            img{
+                width: 100%;
+            }
+    
+        }
+        .my-text-cont{
+            width: 70%;
+        }
+        .my-btn{
+            width: 70%;
+        }
+   }
+ 
 }
