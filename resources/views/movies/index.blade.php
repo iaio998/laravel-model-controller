@@ -4,4 +4,9 @@
 
 @section('content')
 <h1>Movies</h1>
+<ul>
+    @foreach($movies as $movie)
+    <li><a href="">{{$movie->title}}</a></li>
+    @endforeach
+</ul>
 @endsection
